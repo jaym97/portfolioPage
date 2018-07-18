@@ -4,9 +4,6 @@
 *
 */
 
-/* Imports github icon from appended link*/
-@import url(http://weloveiconfonts.com/api/?family=brandico);
-
 .brandico-github:before {
     font-family: 'brandico', sans-serif;
     font-size: 2em;
