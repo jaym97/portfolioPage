@@ -53,6 +53,7 @@ main {
     border-radius: 50%;
 }
 
+/* Button styled with the aid of a button generator with the link http://www.cssportal.com/css3-button-generator/ */
 .link-buttons {
     font-family: 'trebuchet ms';
     font-weight: bold;
