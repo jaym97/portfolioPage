@@ -1,0 +1,167 @@
+@media screen and (max-width: 400px){
+    body {
+        background: linear-gradient(to top, #159957, #09a5a1);
+    }
+
+/*
+ *
+ * Header
+ *
+ */
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .brandico-github:before {
+        color: #ff790e;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .header-div {
+        width: 70%;
+        text-align: end;
+    }
+
+/*
+ *
+ * Content
+ *
+ */
+
+    /* Main image*/
+    .main-img {
+        width: 100%;
+        height: 250px;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    /*Featured Works*/
+    .featured-works {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+    .works {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work-img {
+        width: 100%;
+    }
+
+    .work-link {
+        padding-bottom: 20px;
+    }
+
+    .link-buttons {
+        color: #000302 !important;
+        padding: 12px 30px;
+        border: 2px outset #09A5A1;
+        background: #FF790E;
+    }
+
+/*
+ *
+ * Footer
+ *
+ */
+
+    .page-bottom {
+        background: #ff790e;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 599px) {
+    body {
+        background: linear-gradient(to top, #159957, #09a5a1)
+    }
+
+/*
+ *
+ * Header
+ *
+ */
+
+    header {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .brandico-github:before {
+        color: #ff790e;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .header-div {
+        width: 70%;
+        text-align: end;
+    }
+
+/*
+ *
+ * Content
+ *
+ */
+
+    /* Main image*/
+    .main-page-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    /*Featured Works*/
+    .featured-works {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .works {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work-link {
+        padding-bottom: 20px;
+    }
+
+    .link-buttons {
+        border: 2px outset #09A5A1;
+        padding: 12px 30px;
+        background: #FF790E;
+        color: #000302 !important;
+    }
+
+/*
+ *
+ * Footer
+ *
+ */
+
+    .page-bottom {
+        background: #ff790e;
+        height: 100%;
+    }
+}

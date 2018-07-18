@@ -1,0 +1,191 @@
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    body {
+        background: linear-gradient(to top, #159957, #000046);
+        color: yellow;
+    }
+
+/*
+ *
+ * Header
+ *
+ */
+
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .header-div {
+        width: 70%;
+        text-align: end;
+    }
+
+/*
+ *
+ * Page break
+ *
+ */
+
+    hr {
+        border: 3px solid yellow;
+    }
+
+/*
+ *
+ * Content
+ *
+ */
+    /* Main image*/
+    .main-page-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-img {
+        width: 400px;
+        height: 250px;
+    }
+
+    /*Featured Works*/
+    .ft-works {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .works {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work-link {
+        padding-bottom: 20px;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    .link-buttons {
+        padding: 15px 30px;
+    }
+
+/*
+ *
+ * Footer
+ *
+ */
+
+    .page-bottom {
+        background: yellow;
+        text-align: center;
+        height: 100%;
+        color: #000046;
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+    body {
+        background: linear-gradient(to top, #159957, #000046);
+        color: yellow;
+    }
+
+/*
+ *
+ * Header
+ *
+ */
+
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .header-div {
+        width: 70%;
+        text-align: end;
+    }
+
+/*
+ *
+ * Page break
+ *
+ */
+
+    hr {
+        border: 3px solid yellow;
+    }
+
+/*
+ *
+ * Content
+ *
+ */
+    /* Main image*/
+    .main-page-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-img {
+        width: 500px;
+        height: 350px;
+    }
+
+    /*Featured Works*/
+    .ft-works {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .works {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    .link-buttons {
+        padding: 15px 30px;
+    }
+
+/*
+ *
+ * Footer
+ *
+ */
+
+    .page-bottom {
+        background: yellow;
+        text-align: center;
+        height: 100%;
+        color: #000046;
+        font-size: 1.3em;
+    }
+}
